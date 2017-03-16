@@ -12,6 +12,10 @@
 		DD4763051E7708DB00AA9D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4763031E7708DB00AA9D32 /* Main.storyboard */; };
 		DD4763071E7708DB00AA9D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4763061E7708DB00AA9D32 /* Assets.xcassets */; };
 		DD47630A1E7708DB00AA9D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4763081E7708DB00AA9D32 /* LaunchScreen.storyboard */; };
+		DD4763121E770B0D00AA9D32 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4763111E770B0D00AA9D32 /* Pokemon.swift */; };
+		DD4763141E7711FA00AA9D32 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4763131E7711FA00AA9D32 /* PokemonViewController.swift */; };
+		DD4763181E774E0900AA9D32 /* KN AN.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD4763171E774E0900AA9D32 /* KN AN.jpeg */; };
+		DDF13D681E7B1DA500EC94CF /* PokemonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13D671E7B1DA500EC94CF /* PokemonAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DD4763061E7708DB00AA9D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4763091E7708DB00AA9D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD47630B1E7708DB00AA9D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4763111E770B0D00AA9D32 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		DD4763131E7711FA00AA9D32 /* PokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		DD4763171E774E0900AA9D32 /* KN AN.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "KN AN.jpeg"; sourceTree = "<group>"; };
+		DDF13D671E7B1DA500EC94CF /* PokemonAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				DD4762FF1E7708DB00AA9D32 /* AppDelegate.swift */,
 				DD4763011E7708DB00AA9D32 /* ViewController.swift */,
+				DD4763131E7711FA00AA9D32 /* PokemonViewController.swift */,
+				DD4763111E770B0D00AA9D32 /* Pokemon.swift */,
 				DD4763031E7708DB00AA9D32 /* Main.storyboard */,
+				DD4763171E774E0900AA9D32 /* KN AN.jpeg */,
 				DD4763061E7708DB00AA9D32 /* Assets.xcassets */,
 				DD4763081E7708DB00AA9D32 /* LaunchScreen.storyboard */,
 				DD47630B1E7708DB00AA9D32 /* Info.plist */,
+				DDF13D671E7B1DA500EC94CF /* PokemonAnnotation.swift */,
 			);
 			path = "Pokemon On the Map";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			files = (
 				DD47630A1E7708DB00AA9D32 /* LaunchScreen.storyboard in Resources */,
 				DD4763071E7708DB00AA9D32 /* Assets.xcassets in Resources */,
+				DD4763181E774E0900AA9D32 /* KN AN.jpeg in Resources */,
 				DD4763051E7708DB00AA9D32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +151,9 @@
 			files = (
 				DD4763021E7708DB00AA9D32 /* ViewController.swift in Sources */,
 				DD4763001E7708DB00AA9D32 /* AppDelegate.swift in Sources */,
+				DD4763141E7711FA00AA9D32 /* PokemonViewController.swift in Sources */,
+				DDF13D681E7B1DA500EC94CF /* PokemonAnnotation.swift in Sources */,
+				DD4763121E770B0D00AA9D32 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,7 @@
 				DD4763101E7708DB00AA9D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
